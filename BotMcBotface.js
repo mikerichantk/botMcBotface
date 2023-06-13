@@ -96,12 +96,12 @@ export default class {
       
 
       this.cards.forEach(c => {
-        if (c++ === card)
+        if (++c === card)
         {
             return true;
         }
-        c--;
-        if (c-- === card)
+        --c;
+        if (--c === card)
         {
             return true;
         }
